@@ -1,0 +1,137 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+section {
+    padding: 50px 7%;
+}
+
+.heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    color: #c07757;
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 30px;
+    border-radius: 50px;
+    background: #663f2f;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 9%;
+    background: #663f2f;
+}
+
+.header .logo {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.header .navbar a {
+    font-size: 17px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.home {
+    min-height: 100vh;
+}
+
+.home .content {
+    padding-top: 100px;
+}
+
+.home .content h3 {
+    font-size: 40px;
+    color: black;
+}
+
+.home .content p {
+    font-size: 15px;
+    line-height: 2;
+    color: black;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c07657c7;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #663f2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #c07657c7;
+    color: white;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c07657c7;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
